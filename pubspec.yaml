@@ -10,8 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   cupertino_icons: ^1.0.8
   shared_preferences: ^2.1.1
+  get: ^4.6.6
+  smooth_page_indicator: ^1.1.0   # onboarding dots
+  flutter_localizations:
+    sdk: flutter                  # for language toggle
+  intl: ^0.20.2                   # match flutter_localizations requirement
+  video_player: ^2.9.1            # ✅ for playing mp4 video (optional)
 
 dev_dependencies:
   flutter_test:
@@ -20,3 +27,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+   - assets/icons/Tm.png
+
